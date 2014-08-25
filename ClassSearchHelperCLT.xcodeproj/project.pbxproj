@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		655777FC19AAE0C500B1510C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655777FB19AAE0C500B1510C /* main.m */; };
+		6557781F19AAE16200B1510C /* CSHError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780319AAE16200B1510C /* CSHError.m */; };
+		6557782019AAE16200B1510C /* CSHCourseFetcherHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780519AAE16200B1510C /* CSHCourseFetcherHelper.m */; };
+		6557782119AAE16200B1510C /* CSHCourseFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780719AAE16200B1510C /* CSHCourseFetcher.m */; };
+		6557782219AAE16200B1510C /* CSHCourseListFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780919AAE16200B1510C /* CSHCourseListFetcher.m */; };
+		6557782319AAE16200B1510C /* NSDateComponents+directTimeComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780B19AAE16200B1510C /* NSDateComponents+directTimeComparison.m */; };
+		6557782419AAE16200B1510C /* CSHCampusLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780D19AAE16200B1510C /* CSHCampusLocation.m */; };
+		6557782519AAE16200B1510C /* CSHInstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557780F19AAE16200B1510C /* CSHInstructor.m */; };
+		6557782619AAE16200B1510C /* CSHCourseSessionTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781219AAE16200B1510C /* CSHCourseSessionTime.m */; };
+		6557782719AAE16200B1510C /* CSHCourseSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781419AAE16200B1510C /* CSHCourseSession.m */; };
+		6557782819AAE16200B1510C /* CSHSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781719AAE16200B1510C /* CSHSchedule.m */; };
+		6557782919AAE16200B1510C /* CSHCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781919AAE16200B1510C /* CSHCourse.m */; };
+		6557782A19AAE16200B1510C /* CSHScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781C19AAE16200B1510C /* CSHScheduler.m */; };
+		6557782B19AAE16200B1510C /* CSHSchedulerConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781E19AAE16200B1510C /* CSHSchedulerConstraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,35 @@
 /* Begin PBXFileReference section */
 		655777F819AAE0C500B1510C /* ClassSearchHelperCLT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassSearchHelperCLT; sourceTree = BUILT_PRODUCTS_DIR; };
 		655777FB19AAE0C500B1510C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6557780219AAE16200B1510C /* CSHError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHError.h; sourceTree = "<group>"; };
+		6557780319AAE16200B1510C /* CSHError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHError.m; sourceTree = "<group>"; };
+		6557780419AAE16200B1510C /* CSHCourseFetcherHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourseFetcherHelper.h; sourceTree = "<group>"; };
+		6557780519AAE16200B1510C /* CSHCourseFetcherHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCourseFetcherHelper.m; sourceTree = "<group>"; };
+		6557780619AAE16200B1510C /* CSHCourseFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourseFetcher.h; sourceTree = "<group>"; };
+		6557780719AAE16200B1510C /* CSHCourseFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCourseFetcher.m; sourceTree = "<group>"; };
+		6557780819AAE16200B1510C /* CSHCourseListFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourseListFetcher.h; sourceTree = "<group>"; };
+		6557780919AAE16200B1510C /* CSHCourseListFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCourseListFetcher.m; sourceTree = "<group>"; };
+		6557780A19AAE16200B1510C /* NSDateComponents+directTimeComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+directTimeComparison.h"; sourceTree = "<group>"; };
+		6557780B19AAE16200B1510C /* NSDateComponents+directTimeComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+directTimeComparison.m"; sourceTree = "<group>"; };
+		6557780C19AAE16200B1510C /* CSHCampusLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCampusLocation.h; sourceTree = "<group>"; };
+		6557780D19AAE16200B1510C /* CSHCampusLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCampusLocation.m; sourceTree = "<group>"; };
+		6557780E19AAE16200B1510C /* CSHInstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHInstructor.h; sourceTree = "<group>"; };
+		6557780F19AAE16200B1510C /* CSHInstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHInstructor.m; sourceTree = "<group>"; };
+		6557781019AAE16200B1510C /* CSHCourseSessionTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourseSessionTime.h; sourceTree = "<group>"; };
+		6557781119AAE16200B1510C /* CSHCourseSessionTime_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourseSessionTime_Private.h; sourceTree = "<group>"; };
+		6557781219AAE16200B1510C /* CSHCourseSessionTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCourseSessionTime.m; sourceTree = "<group>"; };
+		6557781319AAE16200B1510C /* CSHCourseSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourseSession.h; sourceTree = "<group>"; };
+		6557781419AAE16200B1510C /* CSHCourseSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCourseSession.m; sourceTree = "<group>"; };
+		6557781519AAE16200B1510C /* CSHSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHSchedule.h; sourceTree = "<group>"; };
+		6557781619AAE16200B1510C /* CSHSchedule_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHSchedule_Private.h; sourceTree = "<group>"; };
+		6557781719AAE16200B1510C /* CSHSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHSchedule.m; sourceTree = "<group>"; };
+		6557781819AAE16200B1510C /* CSHCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHCourse.h; sourceTree = "<group>"; };
+		6557781919AAE16200B1510C /* CSHCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHCourse.m; sourceTree = "<group>"; };
+		6557781A19AAE16200B1510C /* CSHScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHScheduler.h; sourceTree = "<group>"; };
+		6557781B19AAE16200B1510C /* CSHScheduler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHScheduler_Private.h; sourceTree = "<group>"; };
+		6557781C19AAE16200B1510C /* CSHScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHScheduler.m; sourceTree = "<group>"; };
+		6557781D19AAE16200B1510C /* CSHSchedulerConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHSchedulerConstraint.h; sourceTree = "<group>"; };
+		6557781E19AAE16200B1510C /* CSHSchedulerConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHSchedulerConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +99,54 @@
 		655777FA19AAE0C500B1510C /* ClassSearchHelperCLT */ = {
 			isa = PBXGroup;
 			children = (
+				6557780219AAE16200B1510C /* CSHError.h */,
+				6557780319AAE16200B1510C /* CSHError.m */,
+				6557782C19AAE17300B1510C /* Query Helper */,
+				6557782D19AAE18000B1510C /* Model Set */,
+				6557781A19AAE16200B1510C /* CSHScheduler.h */,
+				6557781B19AAE16200B1510C /* CSHScheduler_Private.h */,
+				6557781C19AAE16200B1510C /* CSHScheduler.m */,
+				6557781D19AAE16200B1510C /* CSHSchedulerConstraint.h */,
+				6557781E19AAE16200B1510C /* CSHSchedulerConstraint.m */,
 				655777FB19AAE0C500B1510C /* main.m */,
 			);
 			path = ClassSearchHelperCLT;
+			sourceTree = "<group>";
+		};
+		6557782C19AAE17300B1510C /* Query Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6557780419AAE16200B1510C /* CSHCourseFetcherHelper.h */,
+				6557780519AAE16200B1510C /* CSHCourseFetcherHelper.m */,
+				6557780619AAE16200B1510C /* CSHCourseFetcher.h */,
+				6557780719AAE16200B1510C /* CSHCourseFetcher.m */,
+				6557780819AAE16200B1510C /* CSHCourseListFetcher.h */,
+				6557780919AAE16200B1510C /* CSHCourseListFetcher.m */,
+			);
+			name = "Query Helper";
+			sourceTree = "<group>";
+		};
+		6557782D19AAE18000B1510C /* Model Set */ = {
+			isa = PBXGroup;
+			children = (
+				6557780A19AAE16200B1510C /* NSDateComponents+directTimeComparison.h */,
+				6557780B19AAE16200B1510C /* NSDateComponents+directTimeComparison.m */,
+				6557780C19AAE16200B1510C /* CSHCampusLocation.h */,
+				6557780D19AAE16200B1510C /* CSHCampusLocation.m */,
+				6557780E19AAE16200B1510C /* CSHInstructor.h */,
+				6557780F19AAE16200B1510C /* CSHInstructor.m */,
+				6557781019AAE16200B1510C /* CSHCourseSessionTime.h */,
+				6557781119AAE16200B1510C /* CSHCourseSessionTime_Private.h */,
+				6557781219AAE16200B1510C /* CSHCourseSessionTime.m */,
+				6557781319AAE16200B1510C /* CSHCourseSession.h */,
+				6557781419AAE16200B1510C /* CSHCourseSession.m */,
+				6557781519AAE16200B1510C /* CSHSchedule.h */,
+				6557781619AAE16200B1510C /* CSHSchedule_Private.h */,
+				6557781719AAE16200B1510C /* CSHSchedule.m */,
+				6557781819AAE16200B1510C /* CSHCourse.h */,
+				6557781919AAE16200B1510C /* CSHCourse.m */,
+			);
+			name = "Model Set";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +206,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				655777FC19AAE0C500B1510C /* main.m in Sources */,
+				6557782919AAE16200B1510C /* CSHCourse.m in Sources */,
+				6557782819AAE16200B1510C /* CSHSchedule.m in Sources */,
+				6557782119AAE16200B1510C /* CSHCourseFetcher.m in Sources */,
+				6557782019AAE16200B1510C /* CSHCourseFetcherHelper.m in Sources */,
+				6557782419AAE16200B1510C /* CSHCampusLocation.m in Sources */,
+				6557782319AAE16200B1510C /* NSDateComponents+directTimeComparison.m in Sources */,
+				6557782519AAE16200B1510C /* CSHInstructor.m in Sources */,
+				6557782719AAE16200B1510C /* CSHCourseSession.m in Sources */,
+				6557782B19AAE16200B1510C /* CSHSchedulerConstraint.m in Sources */,
+				6557782219AAE16200B1510C /* CSHCourseListFetcher.m in Sources */,
+				6557782A19AAE16200B1510C /* CSHScheduler.m in Sources */,
+				6557782619AAE16200B1510C /* CSHCourseSessionTime.m in Sources */,
+				6557781F19AAE16200B1510C /* CSHError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
