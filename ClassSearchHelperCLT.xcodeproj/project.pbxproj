@@ -21,6 +21,7 @@
 		6557782919AAE16200B1510C /* CSHCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781919AAE16200B1510C /* CSHCourse.m */; };
 		6557782A19AAE16200B1510C /* CSHScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781C19AAE16200B1510C /* CSHScheduler.m */; };
 		6557782B19AAE16200B1510C /* CSHSchedulerConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557781E19AAE16200B1510C /* CSHSchedulerConstraint.m */; };
+		65EE9EB11A6A05A000B235C5 /* CSHRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE9EB01A6A05A000B235C5 /* CSHRegistrar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,8 @@
 		6557781C19AAE16200B1510C /* CSHScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHScheduler.m; sourceTree = "<group>"; };
 		6557781D19AAE16200B1510C /* CSHSchedulerConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHSchedulerConstraint.h; sourceTree = "<group>"; };
 		6557781E19AAE16200B1510C /* CSHSchedulerConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHSchedulerConstraint.m; sourceTree = "<group>"; };
+		65EE9EAF1A6A05A000B235C5 /* CSHRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHRegistrar.h; sourceTree = "<group>"; };
+		65EE9EB01A6A05A000B235C5 /* CSHRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHRegistrar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				6557780319AAE16200B1510C /* CSHError.m */,
 				6557782C19AAE17300B1510C /* Query Helper */,
 				6557782D19AAE18000B1510C /* Model Set */,
+				65EE9EAF1A6A05A000B235C5 /* CSHRegistrar.h */,
+				65EE9EB01A6A05A000B235C5 /* CSHRegistrar.m */,
 				6557781A19AAE16200B1510C /* CSHScheduler.h */,
 				6557781B19AAE16200B1510C /* CSHScheduler_Private.h */,
 				6557781C19AAE16200B1510C /* CSHScheduler.m */,
@@ -219,6 +224,7 @@
 				6557782A19AAE16200B1510C /* CSHScheduler.m in Sources */,
 				6557782619AAE16200B1510C /* CSHCourseSessionTime.m in Sources */,
 				6557781F19AAE16200B1510C /* CSHError.m in Sources */,
+				65EE9EB11A6A05A000B235C5 /* CSHRegistrar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +338,7 @@
 				6557780119AAE0C500B1510C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

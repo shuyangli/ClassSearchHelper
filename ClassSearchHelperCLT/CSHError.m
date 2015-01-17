@@ -10,6 +10,7 @@
 
 NSString * const CSHScheduleErrorDomain = @"CSHScheduleErrorDomain";
 NSString * const CSHCourseErrorDomain = @"CSHCourseErrorDomain";
+NSString * const CSHRegistrarErrorDomain = @"CSHRegistrarErrorDomain";
 
 NSString * const kCSHErrorDescriptionKey = @"CSHErrorDescription";
 NSString * const kCSHErrorRawDataKey = @"CSHErrorRawData";

@@ -10,6 +10,7 @@
 
 extern NSString * const CSHScheduleErrorDomain;
 extern NSString * const CSHCourseErrorDomain;
+extern NSString * const CSHRegistrarErrorDomain;
 
 extern NSString * const kCSHErrorDescriptionKey;
 extern NSString * const kCSHErrorRawDataKey;
@@ -23,4 +24,11 @@ typedef NS_ENUM(NSInteger, CSHScheduleErrorCode) {
 typedef NS_ENUM(NSInteger, CSHCourseErrorCode) {
     kCSHCourseErrorOther                = -1,
     kCSHCourseErrorYearTooOld           = 1
+};
+
+typedef NS_ENUM(NSInteger, CSHRegistrarErrorCode) {
+    kCSHRegistrarErrorOther                 = -1,
+    kCSHRegistrarErrorInvalidCredentials    = 1,
+    kCSHRegistrarErrorNotAuthenticated      = 2,
+    kCSHRegistrarErrorIncorrectPin          = 3
 };
